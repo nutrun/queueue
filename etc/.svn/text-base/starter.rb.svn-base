@@ -1,3 +1,0 @@
-$:.unshift "../lib/"
-require "queueue/http2"
-# Queueue::Http::Server.start(Queueue::Http::HOST, Queueue::Http::PORT)
