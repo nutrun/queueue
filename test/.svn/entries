@@ -1,0 +1,44 @@
+8
+
+dir
+149
+http://svn.nutrun.com/queueue/trunk/test
+http://svn.nutrun.com
+
+
+
+2007-10-20T14:17:25.326589Z
+96
+gm
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b6479400-0032-0410-b850-ddafdef98974
+
+http
+dir
+
+service_test.rb
+file
+174
+
+
+
+2008-04-13T14:00:07.000000Z
+3bc31bd55fce9c54e7af6fe931ef642d
+2008-02-03T15:02:16.995448Z
+174
+gm
+has-props
+

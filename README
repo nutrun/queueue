@@ -1,0 +1,48 @@
+= Queueue: A portable Amazon Simple Queue Service stub
+
+Queueue is a Ruby implementation of the AWS SQS (Amazon Simple Queue Service) server REST API. Queues and messages on Queueue are not persisted, only stored in memory and are gone when the service is shut down.
+
+Current version is 0.0.8
+
+Queueue depends on Mongrel.
+
+
+== Installation
+
+	gem install queueue-<version>.gem -y
+
+
+== Usage
+
+Invoke "queueue" from the command line to start the server.
+
+Currently, only one user is supported. The default values of the Access Key ID and Secret Access Key are both "queueue".
+
+A configuration file named queueue.yml will be picked up and used by Queueue if found on the same location where queueue was invoked from. The contents of queueue.yml should look like this:
+
+	host: 127.0.0.1
+	port: 2323
+	access_key_id: iamtheworldthathides
+	secret_access_key: theuniversalsecretofalltime
+
+
+== Not supported (yet)
+
+Queueue doesn't yet support the following SQS features:
+
+* Multi user support
+* Storing queues and messages to disk
+
+Error messages are not the same as the ones SQS returns, but validation, error format and codes should be identical.
+
+== Embedding Queueue
+
+Queueue can also be embedded in Ruby programs, i.e. used independently from the REST HTTP server interface. In this mode, Queueue has no external dependencies.
+
+	require 'queueue'
+
+	SERVICE = Queueue::QueueService.new
+	SERVICE.create_queue 'my q'
+	message_id = SERVICE.send_message 'my q', 'hello'
+	message = SERVICE.peek_message 'my q', message_id
+	# ...

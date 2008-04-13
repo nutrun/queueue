@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/!svn/ver/96/queueue/trunk/test/http
+END
+user_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/171/queueue/trunk/test/http/user_test.rb
+END
+dispatch_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/191/queueue/trunk/test/http/dispatch_test.rb
+END
+test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/184/queueue/trunk/test/http/test_helper.rb
+END
+adapter_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/191/queueue/trunk/test/http/adapter_test.rb
+END
+before_dispatch_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/190/queueue/trunk/test/http/before_dispatch_test.rb
+END
+queue_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/157/queueue/trunk/test/http/queue_test.rb
+END
+request_validator_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/190/queueue/trunk/test/http/request_validator_test.rb
+END

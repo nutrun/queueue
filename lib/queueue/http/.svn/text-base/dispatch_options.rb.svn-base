@@ -1,0 +1,10 @@
+Sinatra::Options.environment = :production
+Sinatra::Options.port = Queueue::Http::PORT
+
+module Sinatra
+  module Options
+    def log_file
+      Queueue::Http::LOG_FILE
+    end
+  end
+end

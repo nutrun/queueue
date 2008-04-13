@@ -1,0 +1,5 @@
+host: 127.0.0.1
+port: 2323
+access_key_id: 'queueue'
+secret_access_key: 'queueue'
+log_file: 'queueue.log'

@@ -1,0 +1,5 @@
+require "test/unit"
+require "rubygems"
+require "mocha"
+require File.dirname(__FILE__) + "/../../lib/queueue/http"
+require "sinatra/test/unit"

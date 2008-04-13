@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/149/queueue/trunk/lib/queueue/http
+END
+request_validator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/191/queueue/trunk/lib/queueue/http/request_validator.rb
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/156/queueue/trunk/lib/queueue/http/user.rb
+END
+dispatch.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/196/queueue/trunk/lib/queueue/http/dispatch.rb
+END
+adapter.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/191/queueue/trunk/lib/queueue/http/adapter.rb
+END
+responses.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/154/queueue/trunk/lib/queueue/http/responses.rb
+END
+id_generator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/191/queueue/trunk/lib/queueue/http/id_generator.rb
+END
+queue.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/94/queueue/trunk/lib/queueue/http/queue.rb
+END
+config.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/153/queueue/trunk/lib/queueue/http/config.rb
+END
+dispatch_options.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/165/queueue/trunk/lib/queueue/http/dispatch_options.rb
+END
