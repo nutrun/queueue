@@ -20,7 +20,7 @@ end
 desc "Upload RDoc to site"
 task :publish_rdoc do
   Rake::Task[:rdoc].invoke
-  Rake::SshDirPublisher.new("www-data@nutrun.com", "/var/www/nutrun.com/q/rdoc", "html").upload
+  Rake::SshDirPublisher.new("root@nutrun.com", "/home/Greece/nutrun.com/q/rdoc", "html").upload
 end
 
 gem_spec = Gem::Specification.new do |s|
