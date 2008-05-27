@@ -38,7 +38,7 @@ gem_spec = Gem::Specification.new do |s|
   excluded = FileList['etc/*']
   s.test_files = FileList['test/**/*_test.rb']
   s.files = FileList['**/*.rb', 'COPYING', 'README', 'Rakefile'] + s.test_files - excluded
-  s.add_dependency('sinatra', '0.2.0')
+  s.add_dependency('sinatra')
 end
 
 Rake::GemPackageTask.new(gem_spec) do |t|
